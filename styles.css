@@ -18,7 +18,7 @@ header {
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: orange 3px solid;
+    border-bottom: goldenrod 3px solid;
 }
 
 header a {
@@ -47,7 +47,7 @@ header h1 {
 /* Hero Section */
 .hero {
     background: #fff;
-    background-image: url(https://www.freepik.com/free-photo/happy-african-american-little-girl-using-laptop-while-sitting-father-s-lap_26766451.htm#fromView=search&page=2&position=3&uuid=f250bdf1-c8f6-46d4-90f4-1c188cd17c0a&query=african+Kids+Coding+);
+    background-image: url(https://sl.bing.net/fkRGM1Ozuvc);
     padding: 100px 0;
     text-align: center;
 }
@@ -64,7 +64,7 @@ header h1 {
 /* Services Section */
 .services {
     padding: 50px 20px;
-    background:orange;
+    background:goldenrod;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ header h1 {
 /* Contact Section */
 .contact {
     padding: 20px 0;
-    background: orange;
+    background: goldenrod;
     color: #fff;
     text-align: center;
 }
