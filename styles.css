@@ -18,7 +18,7 @@ header {
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: goldenrod 3px solid;
+    border-bottom: orange 3px solid;
 }
 
 header a {
@@ -64,7 +64,7 @@ header h1 {
 /* Services Section */
 .services {
     padding: 50px 20px;
-    background:goldenrod;
+    background:orange;
     text-align: center;
 }
 
@@ -99,7 +99,7 @@ header h1 {
 /* Contact Section */
 .contact {
     padding: 20px 0;
-    background: goldenrod;
+    background: orange;
     color: #fff;
     text-align: center;
 }
