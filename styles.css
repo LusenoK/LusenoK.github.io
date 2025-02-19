@@ -47,7 +47,7 @@ header h1 {
 /* Hero Section */
 .hero {
     background: #fff;
-    background-image: url(".../images/children_coding.jpg");
+    background-image: url("../images/children_coding.jpg");
     padding: 100px 0;
     text-align: center;
 }
