@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziza Wiz Coders</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is my first GitHub Page.</p>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Ziza Wiz Coders</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Your Partner in learning how to code</h2>
+            <p>Empowering the young to understand and embrace computing technology for the world today.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="service-cards">
+            <h2>Our Services</h2>
+                <div class="card">
+                    <h3>Personalized Coding lessons</h3>
+                    <p>One-on-one sessions to help you achieve your coding goals.</p>
+                </div>
+                <div class="card">
+                    <h3>Small size classes</h3>
+                    <p>Class sizes of 4-6 children to boost participation and student engagemenet.</p>
+                </div>
+                <div class="card">
+                    <h3>Engaging themed project</h3>
+                    <p>The children get to create projects around interesting themes like Car racing, , Ninja themes, Lost princess in the palace etc.</p>
+                </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of professional software engineers and computer scientissts dedicated to helping children understand how to code and to collaborate in the creative space of tech.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ziza Wiz Coders. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
